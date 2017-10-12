@@ -1,27 +1,34 @@
+Morgan Rowland
+October 10, 2017
+
+
 a) POST git-receive-pack (566 bytes)
 Pushing to https://github.com/mmrowland22/Assignment1.git
 To https://github.com/mmrowland22/Assignment1.git
    0a27219..8672cd2  master -> master
 updating local tracking ref 'refs/remotes/origin/master'
 
-b)There has been 9 commits to this repo. This can be seen using the command "git log". (Used "git log --pretty=oneline in order to see them more clearly)
+b) There has been 9 commits to this repo. This can be seen using the command "git log". (Used "git log --pretty=oneline in order to see them more clearly)
 
 c) The file .gitignore was last modified on Wed, Sep 27, 4:31:42. I found this by using the command "git log --follow .gitignore" and the most recent was at the top of the list.
 
 d)commit cb30d72a3d94c108f393c163a35c1cc9bf18ffca
    commit 36a8e55e4bbdd171ab57d979e1a802d740f2db9b
 
-e)One reasoning for branching is being able to work on development seperate from other developers. This way your chnages won't conflict with others' code changes that may be happening at the same time. Another reason for branching is for code reviewing purposes. Others can check your code quaility before it is merged with the master.
+e) One reasoning for branching is being able to work on development separate from other developers. This way your changes won't conflict with others' code changes that may be happening at the same time. Another reason for branching is for code reviewing purposes. Others can check your code quality before it is merged with the master.
 
 f) git status gives information about the current working directory and staging. It shows you which files have been staged, not staged and not being tracked by Git. Essentially, it shows you what is going on in regards to git add and git commit. On the other hand, git log gives information about commits in the repo itself. Using a variety of parameters, you can view specific commits based on their author, which file they are associated with, etc.
 
-g)
+g) git log –follow Weapon.h
 
-h)git log --grep="file"
+h )git log --grep="file"
 
-i) 
-	(I) Inheritance is when classes are derivedd from another class, taking on the same attributes 	and functions as the class they are derived from. The base class is like a category while the 	dervied classes are like sub-categories of that category. 
+i) 	(I) Inheritance is when classes are derived from another class, taking on the same attributes 		and functions as the class they are derived from. The base class is like a category while the 		derived classes are like sub-categories of that category. 
 
 	(II) Polymorphism is about being able to use objects differently base don their data type and 	class. With this concept in object-oriented programming, a programmer can redefine methods 	of derived classes (which involves inheritance).
 
-	(III)Encapsulation is the concept of combining functions and data into one unit (a class in OOP). By putting these functions and data together, the code is more organized. The data in a class can not be directly accessed; it can only be accessed using functions defined in the class itself.
+	(III)Encapsulation is the concept of combining functions and data into one unit (a class in 	OOP). By putting these functions and data together, the code is more organized. The data in 	a class can not be directly accessed; it can only be accessed using functions defined in the 	class itself.
+
+Question 7
+
+This prototype is using polymorphism by redefining methods in the weapon classes themselves that are previously defined in the parent class, Weapon.h. It is also using encapsulation by having classes and not allowing the user direct access to the data of the weapons.
